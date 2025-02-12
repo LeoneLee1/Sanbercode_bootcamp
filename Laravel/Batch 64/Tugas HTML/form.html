@@ -1,0 +1,54 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SanberCode Tugas HTML</title>
+  </head>
+  <body>
+    <header>
+      <h1>Buat Account Baru!</h1>
+      <h3>Sign Up Form</h3>
+    </header>
+
+    <form action="welcome.html">
+      <div>
+        <label for="first-name">First name:</label><br /><br />
+        <input type="text" id="first-name" name="first_name" required />
+      </div>
+      <br />
+      <div>
+        <label for="last-name">Last name:</label><br /><br />
+        <input type="text" name="last_name" id="last-name" required />
+      </div>
+      <br />
+      <div>
+        <label for="gender">Gender:</label><br /><br />
+        <input type="radio" name="Male" id="gender" />Male<br />
+        <input type="radio" name="Female" id="gender" />Female<br />
+        <input type="radio" name="Other" id="gender" />Other
+      </div>
+      <br />
+      <div>
+        <label for="nationality">Nationality</label><br /><br />
+        <select name="nationality" id="nationality">
+          <option value="Indonesia">Indonesia</option>
+          <option value="English">English</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="language">Language Spoken:</label><br /><br />
+        <input type="checkbox" name="bahasa_indonesia" id="language" />Bahasa Indonesia<br />
+        <input type="checkbox" name="english" id="language" />English<br />
+        <input type="checkbox" name="other" id="language" />Other
+      </div>
+      <br />
+      <div>
+        <label for="bio">Bio:</label><br /><br />
+        <textarea name="bio" id="bio" rows="10" cols="30"></textarea>
+      </div>
+      <br />
+      <input type="submit" value="Sign Up" />
+    </form>
+  </body>
+</html>
